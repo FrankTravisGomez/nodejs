@@ -11,3 +11,10 @@ fs.writeFileSync(outputFilePath, textOut);
 console.log('New file');
 // const hello = 'Hello world';
 // console.log(hello);
+
+// non-blocking, asynchronous way
+
+fs.readFile('./1-node-farm/starter/txt/start.txt','utf-8',(err, data)=>{
+    console.log(data);
+});
+console.log('read this file');
