@@ -1,14 +1,11 @@
 const fs = require('fs');
-const path = require('path');
 
-const filePath = path.join(__dirname, '1-node-farm', 'starter', 'txt', 'input.txt');
-const textIn = fs.readFileSync(filePath, 'utf-8');
+const textIn = fs.readFileSync('./1-node-farm/starter/txt/input.txt', 'utf-8');
 console.log(textIn);
 
-const textOut = `Avocado info: ${textIn}.\nCreated on ${Date.now()}`;
-const outputFilePath = path.join(__dirname, '1-node-farm', 'starter', 'txt', 'output.txt');
-fs.writeFileSync(outputFilePath, textOut);
-console.log('New file');
+const textOut = `this is what we know about avocados: ${textIn}.\nCreated on ${Date.now()}`;
+fs.writeFileSync('./1-node-farm/starter/txt/output.txt', textOut);
+console.log('new file written');
 // const hello = 'Hello world';
 // console.log(hello);
 
