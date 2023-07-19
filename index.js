@@ -1,6 +1,6 @@
 const fs = require('fs');
 const http = require('http');
-const url =  require('url')
+const url =  require('url');
 
 //
 // const textIn = fs.readFileSync('./1-node-farm/starter/txt/input.txt', 'utf-8');
@@ -29,16 +29,16 @@ const url =  require('url')
 // console.log('read this file');
 
 // SERVER
-
+// this is a JSON request that is open the following files 1-node-farm starter dev-data data.json
 const data = fs.readFileSync(`${__dirname}/1-node-farm/starter/dev-data/data.json`, 'utf-8');
+//this is a data object that is parsing the JSON data
 const dataObj = JSON.parse(data);
-
+// this is a server that will respond different dependent on the url path
 const server = http.createServer((req, res)=>{
     const pathName = req.url;
-
     if(pathName === '/' || pathName === '/overview'){
         res.end('this is the overview');
-    }else if(pathName === './product'){
+    }else if(pathName === '/product'){
         res.end('here is the PRODUCT');
     }else if(pathName === '/api'){
             res.writeHead(200, {'Content-type': 'application/json'});
@@ -51,7 +51,7 @@ const server = http.createServer((req, res)=>{
         res.end('<h1>page not found</h1>');
     }
 });
-
+//this code is the port and host for server practice
 server.listen(8000, '127.0.0.1', ()=>{
     console.log('listening to request port 8000')
 });
