@@ -41,11 +41,15 @@
       h1 {
         font-family: 'Megrim', sans-serif;
         font-size: 6rem;
-        color: white;
+        color: transparent; /* Make the text transparent to use text-shadow */
         transform: skewY(-5deg);
         text-align: center;
         position: relative;
         word-spacing: 3px;
+        text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 70px #ff0000, 0 0 100px #ff0000, 0 0 150px #ff0000;
+        background-image: linear-gradient(to bottom, #ff0000, #800000); /* Red to dark red gradient */
+        -webkit-background-clip: text; /* Apply gradient to the text only */
+        background-clip: text; /* Apply gradient to the text only */
       }
 
       h1::before {
@@ -56,7 +60,7 @@
         position: absolute;
         top: 105%;
         left: 50%;
-        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        background: linear-gradient(to bottom, #b15de1, #5300e3);
         opacity: 0.8;
         z-index: -1;
         transform: skewY(370deg) translate(-50%, -50%);
@@ -89,7 +93,7 @@
       }
 
       .card__title-box {
-        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        background: linear-gradient(to bottom, #825de1, #5b00e3);
         margin-right: auto;
         display: flex;
         align-items: center;
@@ -129,7 +133,7 @@
         font-weight: 900;
         text-transform: uppercase;
         font-size: 1.9rem;
-        background-image: linear-gradient(to right, #9be15d, #00e3ae);
+        background-image: linear-gradient(to right, #755de1, #6e00e3);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -143,8 +147,8 @@
       .card__link:link,
       .card__link:visited {
         flex: 0 0 auto;
-        background-color: #79e17b;
-        color: white;
+        background-color: #e179a8;
+        color: #cb0909;
         font-size: 1.6rem;
         font-weight: 900;
         text-transform: uppercase;
@@ -159,7 +163,7 @@
 
       .card__link:hover,
       .card__link:active {
-        background-color: #9be15d;
+        background-color: #9d5de1;
       }
 
       .card__link span {
@@ -189,7 +193,7 @@
 
   <body>
     <div class="container">
-      <h1>🌽 Mjrna's portfolio 🥦</h1>
+      <h1> ~Mjrna's portfolio~ </h1>
 
       <div class="cards-container">
         {%PRODUCT_CARDS%}
