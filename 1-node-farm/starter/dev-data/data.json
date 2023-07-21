@@ -1,57 +1,57 @@
 [
   {
     "id": 0,
-    "productName": "Fresh Avocados",
-    "image": "🥑",
-    "from": "Spain",
+    "productName": "CottageCore Glasses",
+    "image": "\uD83D\uDC53",
+    "creator": "Mjrna",
     "nutrients": "Vitamin B, Vitamin K",
     "quantity": "4 🥑",
-    "price": "6.50",
-    "organic": true,
-    "description": "A ripe avocado yields to gentle pressure when held in the palm of the hand and squeezed. The fruit is not sweet, but distinctly and subtly flavored, with smooth texture. The avocado is popular in vegetarian cuisine as a substitute for meats in sandwiches and salads because of its high fat content. Generally, avocado is served raw, though some cultivars, including the common 'Hass', can be cooked for a short time without becoming bitter. It is used as the base for the Mexican dip known as guacamole, as well as a spread on corn tortillas or toast, served with spices."
+    "price": "free",
+    "Made from scratch": true,
+    "description": "Adorable glasses for you! ❤️\n\n100% Made from scratch\n4 Materials for great customization\n12k Tris"
   },
   {
     "id": 1,
-    "productName": "Goat and Sheep Cheese",
-    "image": "🧀",
-    "from": "Portugal",
+    "productName": "Middle of the Night Boots",
+    "image": "\uD83D\uDC62",
+    "creator": "Mjrna",
     "nutrients": "Vitamin A, Calcium",
     "quantity": "250g",
-    "price": "5.00",
-    "organic": false,
-    "description": "Creamy and distinct in flavor, goat cheese is a dairy product enjoyed around the world. Goat cheese comes in a wide variety of flavors and textures, from soft and spreadable fresh cheese to salty, crumbly aged cheese. Although it’s made using the same coagulation and separation process as cheese made from cow’s milk, goat cheese differs in nutrient content."
+    "price": "5.00$",
+    "Made from scratch": true,
+    "description": "Cute, simple thigh high boots to walk the streets in the middle of the night alone or with someone you care about! ❤️\n\nRigged and Weightpainted to Zinpia's Zinfit base (can be easily put on panda or any other base too)\nOnly 10,478 Tris!\nSimple texture set up and looks great without the use of texture provided! Add a latex looking matcap in unity to these and boom! Easy latex thigh high boots.~\nAnd as always, 100% made from scratch by me. c:"
   },
   {
     "id": 2,
-    "productName": "Apollo Broccoli",
+    "productName": "Shiny Industrials",
     "image": "🥦",
-    "from": "Portugal",
+    "creator": "Mjrna",
     "nutrients": "Vitamin C, Vitamin K",
     "quantity": "3 🥦",
-    "price": "5.50",
-    "organic": true,
-    "description": "Broccoli is known to be a hearty and tasty vegetable which is rich in dozens of nutrients. It is said to pack the most nutritional punch of any vegetable. When we think about green vegetables to include in our diet, broccoli is one of the foremost veggies to come to our mind. Broccoli is a cruciferous vegetable and part of the cabbage family, which includes vegetables such as Brussel sprouts and kale. Although the tastes are different, broccoli and these other vegetables are from the same family."
+    "price": "2.00$",
+    "Made from scratch": true,
+    "description": "A couple cute dangly little industrials. c:\n\n100% Made from scratch by me!\nHeart Industrial is 2.5K tris/Pentagram Industrial is 860 tris! :D (Pretty proud how low tris I got the pentagram one.)\nRIGGED AND WEIGHTPAINTED to Nessyy!'s Azura Head(Not included, please go support her amazing work)! Of course feel free to use it on any head you want to. c:"
   },
   {
     "id": 3,
-    "productName": "Baby Carrots",
-    "image": "🥕",
-    "from": "France",
+    "productName": "HeartBreakers",
+    "image": "👠",
+    "creator": "Mjrna",
     "nutrients": "Vitamin A, Vitamin K",
     "quantity": "20 🥕",
-    "price": "3.00",
-    "organic": true,
-    "description": "The carrot is a root vegetable that is often claimed to be the perfect health food. It is crunchy, tasty and highly nutritious. Carrots are a particularly good source of beta-carotene, fiber, vitamin K, potassium and antioxidants. Carrots have a number of health benefits. They are a weight loss friendly food and have been linked to lower cholesterol levels and improved eye health."
+    "price": "7.00$",
+    "Made from scratch": true,
+    "description": "Hope you love these badass heels as much as I do! I am new to this and these are my first pair of shoes ever made so please be nice but am open to hear feedback. <3\n\n100% Made from scratch by me!\n45k Tris\nRIGGED AND WEIGHTPAINTED (to Zinpia's ZinFit)"
   },
   {
     "id": 4,
-    "productName": "Sweet Corncobs",
-    "image": "🌽",
-    "from": "Germany",
+    "productName": "Free Bandaid or With 20 different customizable textures!",
+    "image": "\uD83E\uDE79",
+    "creator": "Mjrna",
     "nutrients": "Vitamin C, Magnesium",
     "quantity": "2 🌽",
-    "price": "2.00",
-    "organic": false,
-    "description": "Also known as maize, corn is one of the most popular cereal grains in the world. Popcorn and sweet corn are commonly eaten varieties, but refined corn products are also widely consumed, frequently as ingredients in foods. These include tortillas, tortilla chips, polenta, cornmeal, corn flour, corn syrup, and corn oil. Whole-grain corn is as healthy as any cereal grain, rich in fiber and many vitamins, minerals, and antioxidants."
+    "price": "free",
+    "Made from scratch": true,
+    "description": "Cute, simple bandaid to use however needed!~ FREE VERSION ONLY INCLUDES BASE TEXTURE!\nPurchase option comes along with 100 different textures and colorways to use on the bandaid!\nCurrently is fitted on the cheek of ZinPia's Lacy head (one of her special edits for when you purchase the head.) DOES NOT COME WITH THIS HEAD YOU MUST PURCHASE THE HEAD FROM ZINPIA! Thank you Sugs#9795 for the amazing head I used to model the bandaid.\n\nMust have some blender knowledge and photoshop knowledge(can use any other program if you wish) to use this product."
   }
 ]
