@@ -4,17 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap" rel="stylesheet">
     <link
       rel="icon"
       href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png"
     />
 
     <title>NODE FARM</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
       *,
       *::before,
@@ -30,40 +29,33 @@
       }
 
       body {
-        padding: 5rem 5rem 10rem;
-        line-height: 1.7;
-        font-family: 'Nunito Sans', sans-serif;
-        color: #555;
-        min-height: 100vh;
-        background: linear-gradient(to bottom right, #333, #000);
+        background-image: url("../img/site-back.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
       }
 
+
       h1 {
-        font-family: 'Megrim', sans-serif;
+        font-family: 'Almendra Display', cursive;
         font-size: 6rem;
-        color: transparent; /* Make the text transparent to use text-shadow */
-        transform: skewY(-5deg);
+        margin-top: 250px;
+        color: #ff91c1;
         text-align: center;
         position: relative;
         word-spacing: 3px;
-        text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 70px #ff0000, 0 0 100px #ff0000, 0 0 150px #ff0000;
-        background-image: linear-gradient(to bottom, #ff0000, #800000); /* Red to dark red gradient */
-        -webkit-background-clip: text; /* Apply gradient to the text only */
-        background-clip: text; /* Apply gradient to the text only */
+        text-shadow: 0 0 20px #8dbbff, 0 0 30px #8dbbff, 0 0 40px #8dbbff, 0 0 70px #8dbbff, 0 0 100px #8dbbff, 0 0 150px #8dbbff;
       }
 
-      h1::before {
-        content: '';
-        display: block;
-        height: 65%;
-        width: 49%;
-        position: absolute;
-        top: 105%;
-        left: 50%;
-        background: linear-gradient(to bottom, #b15de1, #5300e3);
-        opacity: 0.8;
-        z-index: -1;
-        transform: skewY(370deg) translate(-50%, -50%);
+      h2{
+        font-family: 'Almendra Display', cursive;
+        font-size: 6rem;
+        margin-top: 50px;
+        color: #ff91c1;
+        text-align: center;
+        position: relative;
+        word-spacing: 3px;
+        text-shadow: 0 0 20px #8dbbff, 0 0 30px #8dbbff, 0 0 40px #8dbbff, 0 0 70px #8dbbff, 0 0 100px #8dbbff, 0 0 150px #8dbbff;
       }
 
       .container {
@@ -73,6 +65,9 @@
 
       .cards-container {
         margin-top: 8rem;
+      }
+      #navvy{
+        opacity: 50%;
       }
 
       .card {
@@ -190,14 +185,52 @@
       }
     </style>
   </head>
-
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navvy">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
   <body>
+
     <div class="container">
-      <h1> ~Mjrna's portfolio~ </h1>
+      <h1> ~Mjrna~ </h1>
+      <h2>A VR asset creator</h2>
 
       <div class="cards-container">
         {%PRODUCT_CARDS%}
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
