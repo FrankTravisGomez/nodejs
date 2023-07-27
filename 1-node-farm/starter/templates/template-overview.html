@@ -27,6 +27,10 @@
         font-size: 62.5%;
         box-sizing: border-box;
       }
+      .header {
+        background-size: cover;
+        background-attachment: fixed;
+      }
 
       body {
         background-image: url("../img/site-back.jpg");
@@ -188,9 +192,13 @@
         font-size: 24px;
        margin-right: 5px;
       }
+      #navcol{
+        background-color: rgb(173, 216, 230);
+        opacity: 75%;
+      }
     </style>
   </head>
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg fixed-top" id="navcol">
   <div class="container">
     <h3 class="hello1">HELLO</h3>
     <a href="template-overview.html" class="navbar-brand"></a>
@@ -206,6 +214,11 @@
 </nav>
   <body>
 
+
+<header class="header vh-100 text-center position-relative">
+  <div
+          class="text-container position-relative d-flex flex-column
+      justify-content-center align-items-center h-100">
     <div class="container">
       <h1> ~Mjrna~ </h1>
       <h2>A VR asset creator</h2>
@@ -214,6 +227,38 @@
         {%PRODUCT_CARDS%}
       </div>
     </div>
+    <h5 class="text-primary fs-3 fw-bold text-uppercase">
+      Welcome to my portfolio!
+    </h5>
+    <h1 id="typing-text" class="display-1 fw-bold text-white">
+
+    </h1>
+        <div class="text-start">
+          <span>More About Me</span>
+        </div>
+      </div>
+    </a>
+
+    <div class="social d-flex gap-3 position-absolute">
+      <a href="https://www.linkedin.com/in/franktravisgomez/"target="_blank">
+        <i class="fab fa-linkedin fa-3x text-white"></i>
+      </a>
+      <a href="https://github.com/FrankTravisGomez" target="_blank">
+        <i class="fab fa-github fa-3x text-white"></i>
+      </a>
+    </div>
+  </div>
+</header>
+
+    <section id="about" class="about bg-light py-5">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="text-uppercase fw-bold text-primary">About Me</h4>
+          <hr class="w-25 mx-auto"/>
+          <h2 class="mb-4">Here's something about myself!</h2>
+        </div>
+      </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
