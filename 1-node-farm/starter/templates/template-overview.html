@@ -38,6 +38,34 @@
         background-attachment: fixed;
       }
 
+      @media screen and (min-width: 576px) {
+        body {
+          background-size: cover;
+          background-attachment: fixed;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        body {
+          background-size: cover;
+          background-attachment: fixed;
+        }
+      }
+
+      @media screen and (min-width: 992px) {
+        body {
+          background-size: cover;
+          background-attachment: fixed;
+        }
+      }
+
+      @media screen and (min-width: 1200px) {
+        body {
+          background-size: cover;
+          background-attachment: fixed;
+        }
+      }
+
 
       h1 {
         font-family: 'Almendra Display', cursive;
@@ -208,12 +236,17 @@
         opacity: 75%;
       }
 
-      .carousel-inner {
+      .carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 400px; /* Set a fixed height for the carousel container */
         width: 400px;
         background-size: cover;
         background-attachment: fixed;
+        margin: 0 auto; /* Add this line to center the container horizontally */
       }
+
 
 
     </style>
